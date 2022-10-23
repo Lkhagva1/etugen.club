@@ -502,8 +502,8 @@ mark,
   content: "\2014\00A0";
 }
 
-.img-fluid {
-  max-width: 100%;
+.image-f {
+  max-width: 90%;
   height: auto;
 }
 

@@ -30,14 +30,21 @@
     <link rel="stylesheet" href="css/sldier.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="css/fontawesome-all.min.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/sldier.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
     <!-- Favicon  -->
     <link rel="icon" href="images/favicon (1).png">
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#navbarExample">
-
     <!-- Navigation -->
-    <nav id="navbarExample" class="navbar navbar-expand-lg  navbar-light" aria-label="Main navigation">
+    <nav id="navbarExample" class="navbar navbar-expand-lg fixed-top navbar-light" aria-label="Main navigation">
         <div class="container">
 
             <!-- Image Logo -->
@@ -54,10 +61,10 @@
             <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav ms-auto navbar-nav-scroll">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Нүүр хуудас</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Нүүр хуудас</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">Бидний тухай</a>
+                        <a class="nav-link active" href="about.html">Бидний тухай</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="clud.html">Клубууд</a>
@@ -135,7 +142,7 @@
                     <h2>Хаана байна тэндээсээ эхэл. Юу байна түүнийгээ ашигла.</h2>
                     <div class="d-flex justify-content-center justify-content-lg-start "
                         style="text-decoration: none !important;">
-                        <a href="" class="btn-get-started scrollto">Дэлгэрэнгүй</a>
+                        <a href="about.html" class="btn-get-started scrollto">Дэлгэрэнгүй</a>
                         <a href="https://www.youtube.com/watch?v=W3tr9Ih8Y98" class="glightbox btn-watch-video"><i
                                 class="bi bi-play-circle"></i><span>танилцуулга видео</span></a>
                     </div>
@@ -291,7 +298,7 @@
                                 гэдгийг аминчлан захья. Үнэндээ амьдрал гэдэг төгсгөлд нь хүрэх биш юм. Түүнийг баяр
                                 хөөртэйгөөр туулахад л оршдог билээ. Ингээд Этүгэн хэмээх эрдэм мэдлэгийн ертөнцөд
                                 тавтай морил.</p>
-                            <a class="btn-outline-reg" href="article.html">Дэлгэрэнгүй</a>
+                            <a class="btn-outline-reg" href="https://etugen.edu.mn/Home/University/3">Дэлгэрэнгүй</a>
                         </div> <!-- end of text-container -->
                     </div> <!-- end of col -->
                     <div class="col-lg-6 col-xl-7">
@@ -312,7 +319,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
-                    <h2 class="h2-heading" style="margin-left: 467px;"> CSE-клуб Түүхэн замнал: </h2>
+                    <h2 class="h2-heading" style="margin-left: 467px;"> CSE-клуб түүхэн замнал: </h2>
                     <p class="p-heading" style="text-align:justify">CSE-клуб нь анх 2012 онд үүсгэн байгуулагдсан.
                         ИЭЗМС-ийн захирал Л.Нямхүү багш анх үүсгэн байгуулж, үйл ажиллагаа явуулж эхэлсэн. 2013 оноос
                         хойш удирдагч багшаар Б.Оргилмаа багш ажиллаж байна.
@@ -688,8 +695,9 @@
                 <div class="col-lg-3">
                     <div class="blog">
                         <div class="blog-img-holder">
-                            <img src="images/blog/5dd1ef08-300d-4e8d-a362-a02da623a234302143334_5443022392403690_3007448428744516763_n.jpg"
-                                alt="Blog image">
+                            <a href="blog.html"> <img
+                                    src="images/blog/5dd1ef08-300d-4e8d-a362-a02da623a234302143334_5443022392403690_3007448428744516763_n.jpg"
+                                    alt="Blog image"></a>
                         </div>
                         <h3 class="blog-title">танилцуулга</h3>
                         <span class="blog-time">Monday Jan 20, 2020</span>
@@ -699,56 +707,58 @@
                         </p>
                         <div class="options">
                             <span>
-                                Унших
+                                <a href="article.html" style="text-decoration: none; color:black">унших</a>
                             </span>
-                            <button class="btn">мэдээ</button>
+                            <a href="blog.html"><button class="btn">мэдээ</button></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3">
                     <div class="blog">
                         <div class="blog-img-holder">
-                            <img src="images/blog/b65d5329-3946-4214-92dc-1b9daf6ba74f291156478_5272132622826002_1131108024394615171_n.jpg"
-                                alt="Blog image">
+                            <a href="blog.html"> <img src="images/ew.jpg" alt="Blog image"></a>
+
                         </div>
                         <h3 class="blog-title">Этүгэн их сургууль нь та бүхнийг НЭЭЛТТЭЙ АЖЛЫН БАЙР-нд урьж байна.</h3>
-                        <span class="blog-time">Monday Jan 20, 2020</span>
+                        <span class="blog-time">Monday oct 24, 2022</span>
                         <p class="description">Та амжилтаараа, авьяасаараа бусдыг манлайлагч бол бид таны амжилт,
                             авьяасыг
                             үнэлж тухайн жилийн болон суралцах хугацааны туршид сургалтын төлбөрийн тэтгэлэг олгоно.
                         </p>
                         <div class="options">
                             <span>
-                                Унших
+                                <a href="article.html" style="text-decoration: none; color:black">унших</a>
                             </span>
-                            <button class="btn">мэдээ</button>
+                            <a href="blog.html"><button class="btn">мэдээ</button></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3">
                     <div class="blog">
                         <div class="blog-img-holder">
-                            <img src="images/blog/f1967f1e-c230-465f-933e-3e529e612c92289988697_1708612452810031_6524493453370455067_n.jpg"
-                                alt="Blog image">
+                            <a href="blog.html"><img src="images/306641827_451021023725574_7650059709347207352_n.jpg"
+                                    alt="Blog image"></a>
                         </div>
-                        <h3 class="blog-title">Этүгэн их сургууль нь та бүхнийг НЭЭЛТТЭЙ АЖЛЫН БАЙР-нд урьж байна.</h3>
-                        <span class="blog-time">Monday Jan 20, 2020</span>
-                        <p class="description">ажлын байранд тавигдах шаардлага
+                        <h3 class="blog-title">“ЭТҮГЭН ИННОВАЦИЙН ӨДРҮҮД”</h3>
+                        <span class="blog-time">Monday oct 24, 2022</span>
+                        <p class="description">ЭТҮГЭН ИННОВАЦИЙН ӨДРҮҮД” ХӨТӨЛБӨРТ ИНЖЕНЕРЧЛЭЛИЙН ТЭНХИМИЙН ХӨТӨЛБӨР
 
                         </p>
                         <div class="options">
                             <span>
-                                Унших
+                                <a href="privacy.html" style="text-decoration: none; color:black">унших</a>
                             </span>
-                            <button class="btn">мэдээ</button>
+                            <a href="blog.html"><button class="btn">мэдээ</button></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3">
                     <div class="blog">
                         <div class="blog-img-holder">
-                            <img src="images/blog/fc6e90d6-f5c1-49e5-8a0b-acefee67ec8013167640847058720256.jpg"
-                                alt="Blog image">
+                            <a href="blog.html"> <img
+                                    src="images/blog/f1967f1e-c230-465f-933e-3e529e612c92289988697_1708612452810031_6524493453370455067_n.jpg"
+                                    alt="Blog image"></a>
+
                         </div>
                         <h3 class="blog-title">Этүгэн их сургууль нь та бүхнийг НЭЭЛТТЭЙ АЖЛЫН БАЙР-нд урьж байна.
                         </h3>
@@ -760,9 +770,10 @@
                         </p>
                         <div class="options">
                             <span>
-                                Унших
+                                <a href="article.html" style="text-decoration: none; color:black">унших</a>
                             </span>
-                            <button class="btn">мэдээ </button>
+                            <a href="blog.html"><button class="btn">мэдээ</button></a>
+
                         </div>
                     </div>
                 </div>

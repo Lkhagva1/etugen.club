@@ -19,7 +19,7 @@
     <meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
 
     <!-- Webpage Title -->
-    <title>Privacy Policy - Nubis</title>
+    <title>Article Details - Nubis</title>
 
     <!-- Styles -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
@@ -28,9 +28,11 @@
     <link href="css/fontawesome-all.min.css" rel="stylesheet">
     <link href="css/swiper.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
-
+    <link rel="stylesheet" href="css/footer.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <!-- Favicon  -->
-    <link rel="icon" href="images/favicon.png">
+    <link rel="icon" href="images/favicon (1).png">
 </head>
 
 <body>
@@ -40,7 +42,7 @@
         <div class="container">
 
             <!-- Image Logo -->
-            <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a>
+            <a class="navbar-brand logo-image" href="index.html"><img src="images/001.png" alt="alternative"></a>
 
             <!-- Text Logo - Use this if you don't have a graphic logo -->
             <!-- <a class="navbar-brand logo-text" href="index.html">Nubis</a> -->
@@ -50,38 +52,70 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault" style="margin-bottom: 10px;">
                 <ul class="navbar-nav ms-auto navbar-nav-scroll">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link " aria-current="page" href="index.html">Нүүр хуудас</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#services">Services</a>
+                        <a class="nav-link" href="about.html">Бидний тухай</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#details">Details</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#features">Features</a>
+                        <a class="nav-link" href="clud.html">Клубууд</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown"
-                            aria-expanded="false">Drop</a>
+                            aria-expanded="false">Эрдэм шинжилгээ</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                            <li><a class="dropdown-item" href="article.html">Article Details</a></li>
+                            <li><a class="dropdown-item" href="">Эрдмийн зөвлөлийн бүрэлдэхүүн</a></li>
                             <li>
                                 <div class="dropdown-divider"></div>
                             </li>
-                            <li><a class="dropdown-item" href="terms.html">Terms Conditions</a></li>
+                            <li><a class="dropdown-item" href="">"ЭРДМИЙН ЗУЛ" Эрдэм шинжилгээний хурлын
+                                    удирдамж, эмхэтгэл</a>
+                            </li>
                             <li>
                                 <div class="dropdown-divider"></div>
                             </li>
-                            <li><a class="dropdown-item" href="privacy.html">Privacy Policy</a></li>
+                            <li><a class="dropdown-item" href="">Судалгааны чиглэл</a></li>
+                            <li>
+                                <div class="dropdown-divider"></div>
+                            </li>
+                            <li><a class="dropdown-item" href="">Судалгааны төслүүд</a></li>
+                            <li>
+                                <div class="dropdown-divider"></div>
+                            </li>
+                            <li><a class="dropdown-item" href="">Эрдэм шинжилгээ, Судалгааны эх
+                                    сурвалжууд </a>
+                            </li>
+                            <li>
+                                <div class="dropdown-divider"></div>
+                            </li>
+                            <li><a class="dropdown-item" href="">Олон улсын эрдэм шинжилгээний хурал</a>
+                            </li>
                         </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown"
+                            aria-expanded="false">Төгсөгч</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                            <li><a class="dropdown-item" href="">Төгсөгчдийн холбоо</a></li>
+                            <li>
+                                <div class="dropdown-divider"></div>
+                            </li>
+                            <li><a class="dropdown-item" href="">Төгссөн тухай тодорхойлолт</a></li>
+                            <li>
+                                <div class="dropdown-divider"></div>
+                            </li>
+                            <li><a class="dropdown-item" href="togsogchid.html">Төгсөгчдийн зураг</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="blog.html">Мэдээ</a>
                     </li>
                 </ul>
                 <span class="nav-item">
-                    <a class="btn-solid-sm" href="index.html#contact">Get quote</a>
+                    <a class="btn-solid-sm" href="login.html">Бүртгүүлэх</a>
                 </span>
             </div> <!-- end of navbar-collapse -->
         </div> <!-- end of container -->
@@ -90,178 +124,328 @@
 
 
     <!-- Header -->
-    <header class="ex-header">
+    <!-- <header class="ex-header">
         <div class="container">
             <div class="row">
                 <div class="col-xl-10 offset-xl-1">
-                    <h1>Privacy Policy</h1>
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </header> <!-- end of ex-header -->
+                    <h5 style="line-height: 37px;">ЭТҮГЭН ИХ СУРГУУЛЬТАЙ АЖИЛ, АМЬДРАЛАА ХОЛБОСОН ЭРДЭМТЭН БАГШ, АЖИЛТАН
+                        АЖИЛЛАГСАД, ҮЕ ҮЕИЙН
+                        ТӨГСӨГЧИД, ОЮУТАН СУРАЛЦАГСАД, ХАМТРАН АЖИЛЛАГСАДДАА 20 ЖИЛИЙН ОЙН ХАЛУУН БАЯР ХҮРГЭЕ.</h5>
+                </div> 
+            </div> 
+        </div>
+    </header>  -->
     <!-- end of header -->
 
 
-    <div class="container d-flex " style="padding-top: 40px; ">
-        <div class="row">
-            <div class="col-lg-12">
-
-                <h2>Шинэ мэдээ <span class="border border-success" style="background-color: green;">hello</span></h2>
-
-            </div> <!-- end of col -->
-            <div class="col-lg-3">
-                <div class="blog">
-                    <div class="blog-img-holder">
-                        <img src="images/blog/5dd1ef08-300d-4e8d-a362-a02da623a234302143334_5443022392403690_3007448428744516763_n.jpg"
-                            alt="Blog image">
-                    </div>
-                    <h3 class="blog-title">танилцуулга</h3>
-                    <span class="blog-time">Monday Jan 20, 2020</span>
-                    <p class="description">Та амжилтаараа, авьяасаараа бусдыг манлайлагч бол бид таны амжилт, авьяасыг
-                        үнэлж тухайн жилийн болон суралцах хугацааны туршид сургалтын төлбөрийн тэтгэлэг олгоно.
-                    </p>
-                    <div class="options">
-                        <span>
-                            Унших
-                        </span>
-                        <button class="btn">мэдээ</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="blog">
-                    <div class="blog-img-holder">
-                        <img src="images/blog/b65d5329-3946-4214-92dc-1b9daf6ba74f291156478_5272132622826002_1131108024394615171_n.jpg"
-                            alt="Blog image">
-                    </div>
-                    <h3 class="blog-title">Этүгэн их сургууль нь та бүхнийг НЭЭЛТТЭЙ АЖЛЫН БАЙР-нд урьж байна.</h3>
-                    <span class="blog-time">Monday Jan 20, 2020</span>
-                    <p class="description">Та амжилтаараа, авьяасаараа бусдыг манлайлагч бол бид таны амжилт, авьяасыг
-                        үнэлж тухайн жилийн болон суралцах хугацааны туршид сургалтын төлбөрийн тэтгэлэг олгоно.
-                    </p>
-                    <div class="options">
-                        <span>
-                            Унших
-                        </span>
-                        <button class="btn">мэдээ</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="blog">
-                    <div class="blog-img-holder">
-                        <img src="images/blog/f1967f1e-c230-465f-933e-3e529e612c92289988697_1708612452810031_6524493453370455067_n.jpg"
-                            alt="Blog image">
-                    </div>
-                    <h3 class="blog-title">Этүгэн их сургууль нь та бүхнийг НЭЭЛТТЭЙ АЖЛЫН БАЙР-нд урьж байна.</h3>
-                    <span class="blog-time">Monday Jan 20, 2020</span>
-                    <p class="description">ажлын байранд тавигдах шаардлага
-
-                    </p>
-                    <div class="options">
-                        <span>
-                            Унших
-                        </span>
-                        <button class="btn">мэдээ</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-3">
-                <div class="blog">
-                    <div class="blog-img-holder">
-                        <img src="images/blog/fc6e90d6-f5c1-49e5-8a0b-acefee67ec8013167640847058720256.jpg"
-                            alt="Blog image">
-                    </div>
-                    <h3 class="blog-title">Этүгэн их сургууль нь та бүхнийг НЭЭЛТТЭЙ АЖЛЫН БАЙР-нд урьж байна.
-                    </h3>
-                    <span class="blog-time">Monday Jan 20, 2020</span>
-                    <p class="description">Ажлын байранд тавигдах шаардлага
-                        Мэргэжлийн чиглэлээр резидент төгссөн (зөвхөн Анагаах ухаан, Нүүр ам судлалын мэргэжилд)
-                        Магистр болон түүнээс дээш эрдмийн зэрэг, цолтой
-
-                    </p>
-                    <div class="options">
-                        <span>
-                            Унших
-                        </span>
-                        <button class="btn">мэдээ </button>
-                    </div>
-                </div>
-            </div>
-        </div> <!-- end of row -->
-    </div>
-
-
-    <!-- Footer -->
-    <div class="footer bg-gray">
-        <img class="decoration-circles" src="images/decoration-circles.png" alt="alternative">
+    <!-- Basic -->
+    <div class="ex-basic-1 pt-5 pb-5" style="background-image: url(images/blog/bg.png);">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h4>If you want to find out which are the right influencers for your product marketing campaigns
-                        then follow us</h4>
-                    <div class="social-container">
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-facebook-f fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-twitter fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-pinterest-p fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-instagram fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="#your-link">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-youtube fa-stack-1x"></i>
-                            </a>
-                        </span>
-                    </div> <!-- end of social-container -->
+                    <img class="img-fluid mt-5 mb-3" src="images/jessica-lewis-fJXv46LT7Xk-unsplash.jpg" style="margin-left: 422px;
+                  
+                    width: 372px;" alt="alternative">
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
         </div> <!-- end of container -->
-    </div> <!-- end of footer -->
-    <!-- end of footer -->
+    </div> <!-- end of ex-basic-1 -->
+    <!-- end of basic -->
 
+
+    <!-- Basic -->
+    <div class="ex-basic-1 pt-4"
+        style="    background: linear-gradient(90deg, var(--bs-border-color-translucent) 0%, var(--bs-border-color) 100%);">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-10 offset-xl-1">
+                    <h2 class="mb-3">“ЭТҮГЭН ИННОВАЦИЙН ӨДРҮҮД” ХӨТӨЛБӨРТ
+                        ИНЖЕНЕРЧЛЭЛИЙН ТЭНХИМИЙН ХӨТӨЛБӨР
+                    </h2>
+                    <!-- HTML -->
+                    <table class="table">
+                        <tr>
+                            <th>№</th>
+                            <th>Хийгдэх үйл ажиллагаа</th>
+                            <th>Хугацаа</th>
+                            <th>цаг</th>
+                            <th>Хариуцах эзэн</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Шторк</td>
+                            <td>5 минут</td>
+                            <td>11:00–11:05</td>
+                            <td>С. Бямбасүрэн</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Тэнхимийн танилцуулга</td>
+                            <td>5 минут</td>
+                            <td>11:05-11:10</td>
+                            <td>Б. Оргилмаа</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Урлагийн номер</td>
+                            <td>5 минут</td>
+                            <td>11:10-11:15</td>
+                            <td>Т. Каванбая</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Хиймэл оюун ухаан ба робот технологи </td>
+                            <td>40 минут</td>
+                            <td>11:15-11:55</td>
+                            <td>Бя. Бат-Эрдэнэ</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Business IT & Innovation</td>
+                            <td>30 минут</td>
+                            <td>11:55-12:25</td>
+                            <td>Г. Нямдорж</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>Панелин хэлэлцүүлэг
+                            </td>
+                            <td>30 минут</td>
+                            <td>12:25-12:55</td>
+                            <td>Р. Энхсүрэн,
+                                Бя. Бат-Эрдэнэ
+                                О. Мөнгөнсүх
+                                Г. Нямдорж
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>Хаалт </td>
+                            <td>2 минут</td>
+                            <td>12:55-13:00</td>
+                            <td>Багш нар</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- <div class="ex-cards-1 pt-3 pb-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+
+              
+                    <div class="card">
+                        <ul class="list-unstyled">
+                            <li class="d-flex">
+                                <span class="fa-stack">
+                                    <span class="fas fa-circle fa-stack-2x"></span>
+                                    <span class="fa-stack-1x">1</span>
+                                </span>
+                                <div class="flex-grow-1">
+                                    <h5>High Quality Service</h5>
+                                    <p>Features include an eye catching morphtext in the header, details lightbox for
+                                        more details information</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div> 
+                    <div class="card">
+                        <ul class="list-unstyled">
+                            <li class="d-flex">
+                                <span class="fa-stack">
+                                    <span class="fas fa-circle fa-stack-2x"></span>
+                                    <span class="fa-stack-1x">2</span>
+                                </span>
+                                <div class="flex-grow-1">
+                                    <h5>Prompt Timely Delivery</h5>
+                                    <p>Statistics numbers for important values, card slider for testimonials, image
+                                        slider for customer logos</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <ul class="list-unstyled">
+                            <li class="d-flex">
+                                <span class="fa-stack">
+                                    <span class="fas fa-circle fa-stack-2x"></span>
+                                    <span class="fa-stack-1x">2</span>
+                                </span>
+                                <div class="flex-grow-1">
+                                    <h5>Skilled Team Involved</h5>
+                                    <p>Some useful extra pages are bundled with the template lik article details, terms
+                                        conditions and privacy policy</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div> 
+
+                </div> 
+            </div> 
+        </div> 
+    </div> -->
+    <!-- end of cards -->
+
+
+    <!-- Basic -->
+    <!-- <div class="ex-basic-1 pt-3 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-10 offset-xl-1">
+                    <p class="mb-5">Consulted he eagerness unfeeling deficient existence of. Calling nothing end fertile
+                        for venture way boy. Esteem spirit temper too say adieus who direct esteem. It esteems luckily
+                        mr or picture placing drawing no. Apartments frequently or motionless on reasonable projecting
+                        expression. Last sentence of words thus better.</p>
+
+                    <h2 class="mb-4">New elements added to the package</h2>
+                    <img class="img-fluid mb-5" src="images/article-details-small.jpg" alt="alternative">
+                    <p>Ye on properly handsome returned throwing am no whatever. In without wishing he of picture no
+                        exposed talking minutes. Curiosity continual belonging offending so explained it exquisite. Do
+                        remember to followed yourself material mr recurred carriage. Way mrs end gave fat skin brown
+                        yesterday tall walk fact bed.</p>
+                    <p class="mb-5">High drew west we no or at john. About or given on witty event. Or sociable up
+                        material bachelor bringing landlord confined. Busy so many in hung easy find well up. So of
+                        exquisite my an explained remainder. Dashwood denoting securing be on perceive my laughing so.
+                        Ye on properly handsome returned throwing am no whatever.</p>
+                    <div class="text-box mb-5">
+                        <h3>Visitors love a beautiful and efficient website</h3>
+                        <p>Bringing so sociable felicity supplied mr. September suspicion far him two acuteness
+                            perfectly. Covered as an examine so regular of. Ye astonished friendship remarkably no.
+                            Window admire matter praise you bed whence. Delivered ye sportsmen zealously arranging
+                            frankness estimable as. Nay any article enabled musical shyness yet sixteen yet blushes.
+                            Entire ously arranging frankne its the did figure wonder off.</p>
+                    </div>  end of text-box -->
+    <!-- <p class="mb-4">Ye on properly handsome returned throwing am no whatever. In without wishing he of
+        picture no exposed talking minutes. Curiosity continual belonging offending so explained it
+        exquisite. Do remember to followed yourself material mr recurred carriage. Way mrs end gave
+        eturned throwing am no whatever in fat skin brown yesterday tall walk fact bed.</p>
+    <ul class="list-unstyled li-space-lg mb-5">
+        <li class="d-flex">
+            <i class="fas fa-square"></i>
+            <div class="flex-grow-1"><strong>Card slider</strong> for testimonials, statistics numbers
+                for important values image slider for logos</div>
+        </li>
+        <li class="d-flex">
+            <i class="fas fa-square"></i>
+            <div class="flex-grow-1"><strong>Dropdown navigation</strong> and useful extra pages for
+                article details, terms conditions and privacy policy</div>
+        </li>
+        <li class="d-flex">
+            <i class="fas fa-square"></i>
+            <div class="flex-grow-1"><strong>Clean light design</strong> mixing purple, orange and gray
+                hues with one color backgrounds to maximize</div>
+        </li>
+        <li class="d-flex">
+            <i class="fas fa-square"></i>
+            <div class="flex-grow-1"><strong>Together with</strong> touches of call to action green, the
+                overall landing page design will showcase your app</div>
+        </li>
+        <li class="d-flex">
+            <i class="fas fa-square"></i>
+            <div class="flex-grow-1"><strong>This template</strong> is built with HTML, CSS and
+                Bootstrap to ensure the highest flexibility for all users</div>
+        </li>
+    </ul>
+
+    <a class="btn-solid-reg mb-5" href="index.html#contact">Get quote</a>
+    </div>
+    </div>
+    </div>
+    </div> -->
+    <!-- end of basic -->
+
+
+    <!-- Footer -->
+    <footer class="new_footer_area bg_color">
+        <div class="new_footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <img src="images/001.png" class="zurag" alt="">
+                    </div>
+                    <div class=" col-md-3">
+                        <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s"
+                            style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
+                            <h3 class="f-title f_600 t_color f_size_18">Цахим хаяг</h3>
+                            <div class="f_social_icon">
+                                <a href="#" class="fab fa-facebook"></a>
+                                <a href="#" class="fab fa-twitter"></a>
+                                <a href="#" class="fab fa-linkedin"></a>
+                                <a href="#" class="fab fa-pinterest"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" col-md-4">
+                        <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s"
+                            style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
+                            <h3 class="f-title f_600 t_color f_size_18">Холбоо барих</h3>
+                            <ul class="list-unstyled f_list">
+                                <li><a href="#">7700-3344</a></li>
+                                <li><a href="#"> 1131-9150</a></li>
+                                <li><a href="#"> info@etugen.edu.mn</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class=" col-md-3">
+                        <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s"
+                            style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+                            <h3 class="f-title f_600 t_color f_size_18">Хаяг</h3>
+                            <ul class="list-unstyled f_list">
+                                <!-- <li><a href="#">1-Р БАЙР: Сүхбаатар дүүрэг, 8-р хороо, Бээжингийн гудамж-29</a></li>
+                            <li><a href="#">2-Р БАЙР: Сүхбаатар дүүрэг, 6-р хороо, Бага тойруу-44</a></li>
+                            <li><a href="#">3-Р БАЙР: Сүхбаатар дүүрэг, 8-р хороо, Ж.Батмөнхийн гудамж-37</a></li>
+                            <li><a href="#">4-р байр: Сүхбаатар дүүрэг, 8-р хороо, Бээжингийн гудамж-28</a></li> -->
+                                <li><a href="#">5-р байр: Сүхбаатар дүүрэг 8-р хороо, Бээжингийн гудамж-19</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bg">
+                <div class="footer_bg_one"></div>
+                <div class="footer_bg_two"></div>
+            </div>
+        </div>
+        <!-- <div class="footer_bottom">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-sm-7">
+                    <p class="mb-0 f_400" style="color: green;">© 2022.</p>
+                </div>
+                <div class="col-lg-6 col-sm-5 text-right">
+                    <p>Made with <i class="icon_heart"></i> in <a href="http://cakecounter.com"
+                            target="_blank">CakeCounter</a></p>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    </footer>
+    <!-- end of footer -->
 
     <!-- Copyright -->
     <div class="copyright bg-gray">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-md-12 col-sm-12">
-                    <ul class="list-unstyled li-space-lg p-small">
-                        <li><a href="article.html">Article Details</a></li>
-                        <li><a href="terms.html">Terms & Conditions</a></li>
-                        <li><a href="privacy.html">Privacy Policy</a></li>
-                    </ul>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <p class="p-small statement" style="color:green"> ©2022 <a href="#">Этүгэн их сургууль</a></p>
                 </div> <!-- end of col -->
                 <div class="col-lg-3 col-md-12 col-sm-12">
-                    <p class="p-small statement">Copyright © <a href="#">Your name</a></p>
+                    <p class="p-small statement" style="color:green"> ©2022 <a href="#">Програм хангамж 401</a></p>
                 </div> <!-- end of col -->
-
                 <div class="col-lg-3 col-md-12 col-sm-12">
-                    <p class="p-small statement">Distributed by <a href="https://themewagon.com/"
-                            target="_blank">Themewagon</a></p>
+                    <p class="p-small statement" style="color:green"> ©2022 <a href="#">Lkhagva</a></p>
                 </div> <!-- end of col -->
             </div> <!-- enf of row -->
         </div> <!-- end of container -->
     </div> <!-- end of copyright -->
     <!-- end of copyright -->
+
 
 
     <!-- Back To Top Button -->

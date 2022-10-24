@@ -1704,3 +1704,16 @@ section {
   font-size: 13px;
   color: #364146;
 }
+
+.table {
+  width: 100%;
+  text-align: left;
+  background: #ffffff url('https://img.pngio.com/stars-transparent-background-vector-abstract-line-stars-png-transparent-real-stars-png-stars-blue-shooting-stars-png-360_360.png') repeat;
+  border-collapse: collapse;
+  border: 1px solid #000000;
+}
+
+.table td,
+.table th {
+  padding: 15px;
+}
